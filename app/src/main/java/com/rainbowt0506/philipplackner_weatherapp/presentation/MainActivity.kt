@@ -23,8 +23,10 @@ import androidx.compose.ui.unit.dp
 import com.rainbowt0506.philipplackner_weatherapp.presentation.theme.DarkBlue
 import com.rainbowt0506.philipplackner_weatherapp.presentation.theme.DeepBlue
 import com.rainbowt0506.philipplackner_weatherapp.presentation.theme.WeatherAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 import kotlin.getValue
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val viewModel: WeatherViewModel by viewModels()
     private lateinit var permissionLauncher: ActivityResultLauncher<Array<String>>
