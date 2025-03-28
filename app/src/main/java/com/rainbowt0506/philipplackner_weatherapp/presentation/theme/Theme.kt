@@ -1,4 +1,4 @@
-package com.rainbowt0506.philipplackner_weatherapp.ui.theme
+package com.rainbowt0506.philipplackner_weatherapp.presentation.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
